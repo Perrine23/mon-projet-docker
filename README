@@ -1,0 +1,9 @@
+Instruction d'installation : 
+	Pour installer le projet il faut une fois le fichier deziper, taper la commande : docker-compose up -d , puis : docker exec -it symfony_app bash , afin de lancer les contenaires.
+	Ensuite il faut se placer dans le fichier apptuteur avec la commande: cd apptuteur
+	Enfin lancer le serveur web avec la commande: sympfony serveur:start
+	Pour arriver sur la page de connexion taper dans le navigateur : http://localhost:8000/login 
+Instruction de connexion :
+	Pour se connecté en tant que tuteur taper l'email, ici l'email est alice.durand@example.com, 
+	et le mot de passe :  password
+Les fonctionnalités d'ajout d'un étudiant ne sont pas fonctionnel mais la connexion et la déconnexion est assuré.
